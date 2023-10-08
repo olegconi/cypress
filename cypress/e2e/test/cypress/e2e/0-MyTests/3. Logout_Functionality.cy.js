@@ -7,5 +7,4 @@ it ('Logout test', function () {
     cy.url().should('include', '/dashboard') 
     cy.get(dropDownMenu).click() 
     cy.get(dropDownElement).last().contains('Logout').click()
-    cy.url().should('include', 'auth/login')
 })

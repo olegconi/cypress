@@ -2,7 +2,7 @@
 import selectors from "../../support/selectors";
 const { dropDownMenu, dropDownElement } = selectors;
 
-it ('login test', function () {
+it ('Dropdown menu items check', function () {
     cy.visit('opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     cy.url().should('include', '/dashboard') 
     cy.get(dropDownMenu).click() 
