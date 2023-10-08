@@ -7,7 +7,8 @@ viewportHeight: 1060,
 e2e: {
 experimentalStudio: false,
 testIsolation: false,
-setupNodeEvents(on, config) {
+supportFile: false,
+etupNodeEvents(on, config) {
 // implement node event listeners here
 },
 },

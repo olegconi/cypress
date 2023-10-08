@@ -1,3 +1,5 @@
+/// <reference types="cypress" /> 
+
 it ('Add a new employee', function () {
     cy.visit('opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     //precondition: user should be logged in using these credentials: Username : Admin, Password : admin123 
