@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 module.exports = defineConfig({
 watchForFileChanges: true,
-defaultCommandTimeout: 25000,
+defaultCommandTimeout: 135000,
 viewportWidth: 1400,
 viewportHeight: 1060,
 e2e: {

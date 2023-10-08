@@ -1,5 +1,5 @@
 /// <reference types="cypress" /> 
-import selectors from "../../support/selectors";
+import selectors from "../support/selectors";
 const { dropDownMenu, dropDownElement } = selectors;
 
 it ('Dropdown menu items check', function () {

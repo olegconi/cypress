@@ -1,5 +1,5 @@
 /// <reference types="cypress" /> 
-import selectors from "../../support/selectors";
+import selectors from "../support/selectors";
 const { loginField, passwordField, submitButton } = selectors;
 
 it ('Login using valid credentials', function () {
